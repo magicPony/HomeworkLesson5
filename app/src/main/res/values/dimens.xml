@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_recipient_description_margin_top">20dp</dimen>
+    <dimen name="text_recipient_description_text_size">18sp</dimen>
+    <dimen name="text_recipient_description_padding_left">10dp</dimen>
+    <dimen name="text_recipient_description_padding_top">5dp</dimen>
+    <dimen name="text_recipient_description_padding_bottom">5dp</dimen>
+    <dimen name="text_recipient_description_padding_right">5dp</dimen>
+    <dimen name="text_recipient_field_text_size">20sp</dimen>
+    <dimen name="text_recipient_field_padding_left">10dp</dimen>
+    <dimen name="text_recipient_field_padding_top">5dp</dimen>
+    <dimen name="text_recipient_field_pdding_right">5dp</dimen>
+    <dimen name="text_subject_description_margin_top">50dp</dimen>
+    <dimen name="text_subject_description_text_size">18sp</dimen>
+    <dimen name="text_subject_description_padding_left">10dp</dimen>
+    <dimen name="text_subject_description_padding_top">5dp</dimen>
+    <dimen name="text_subject_description_padding_bottom">5dp</dimen>
+    <dimen name="text_subject_description_padding_right">5dp</dimen>
+    <dimen name="text_message_field_hint">50dp</dimen>
+    <dimen name="text_message_field_height">100dp</dimen>
+    <dimen name="text_message_field_padding_left">5dp</dimen>
+    <dimen name="text_message_field_padding_right">5dp</dimen>
+    <dimen name="button_send_padding_left">5dp</dimen>
+    <dimen name="button_send_padding_right">5dp</dimen>
+    <dimen name="button_call_padding_left">5dp</dimen>
+    <dimen name="button_call_padding_right">5dp</dimen>
+</resources>
