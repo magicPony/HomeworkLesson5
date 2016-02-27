@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.taras.homeworklesson5.MainActivity">
+
+    <TextView
+        android:id="@+id/text_recipient_description"
+        android:layout_marginTop="@dimen/text_recipient_description_margin_top"
+        android:text="Кому :"
+        android:textSize="@dimen/text_recipient_description_text_size"
+        android:paddingLeft="@dimen/text_recipient_description_padding_left"
+        android:paddingTop="@dimen/text_recipient_description_padding_top"
+        android:paddingBottom="@dimen/text_recipient_description_padding_bottom"
+        android:paddingRight="@dimen/text_recipient_description_padding_right"
+        android:background="@color/colorLightGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/text_recipient_field"
+        android:background="@color/colorLightGrey"
+        android:textSize="@dimen/text_recipient_field_text_size"
+        android:paddingLeft="@dimen/text_recipient_field_padding_left"
+        android:paddingTop="@dimen/text_recipient_field_padding_top"
+        android:paddingRight="@dimen/text_recipient_field_pdding_right"
+        android:layout_alignBottom="@id/text_recipient_description"
+        android:inputType="textEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/text_recipient_description"
+        android:layout_toRightOf="@+id/text_recipient_description"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/text_subject_description"
+        android:layout_alignTop="@id/text_recipient_description"
+        android:background="@color/colorLightGrey"
+        android:layout_marginTop="@dimen/text_subject_description_margin_top"
+        android:text="@string/text_subject_description_text"
+        android:textSize="@dimen/text_subject_description_text_size"
+        android:paddingLeft="@dimen/text_subject_description_padding_left"
+        android:paddingTop="@dimen/text_subject_description_padding_top"
+        android:paddingBottom="@dimen/text_subject_description_padding_bottom"
+        android:paddingRight="@dimen/text_subject_description_padding_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/text_subject_field"
+        android:background="@color/colorLightGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/text_subject_description"
+        android:layout_toRightOf="@id/text_subject_description"
+        android:layout_alignRight="@id/text_recipient_field"
+        android:layout_alignEnd="@id/text_recipient_field"
+        android:layout_alignBottom="@id/text_subject_description" />
+
+    <EditText
+        android:id="@+id/text_message_field"
+        android:background="@color/colorLightGrey"
+        android:layout_marginTop="@dimen/text_message_field_hint"
+        android:hint="@string/text_message_field_hint"
+        android:lines="5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_message_field_height"
+        android:layout_below="@id/text_subject_description"
+        android:paddingLeft="@dimen/text_message_field_padding_left"
+        android:paddingRight="@dimen/text_message_field_padding_right"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_send_text"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/button_send_padding_left"
+        android:paddingRight="@dimen/button_send_padding_right"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_call"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_call_text"
+        android:paddingLeft="@dimen/button_call_padding_left"
+        android:paddingRight="@dimen/button_call_padding_right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

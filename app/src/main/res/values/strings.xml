@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework Lesson 5</string>
+    <string name="permission_error_message">You can\'t call via this device</string>
+    <string name="text_subject_description_text">Тема :</string>
+    <string name="text_message_field_hint">Текст сообщения</string>
+    <string name="button_send_text">Отправить</string>
+    <string name="button_call_text">Звонок</string>
+</resources>
