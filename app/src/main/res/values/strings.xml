@@ -5,4 +5,5 @@
     <string name="text_message_field_hint">Текст сообщения</string>
     <string name="button_send_text">Отправить</string>
     <string name="button_call_text">Звонок</string>
+    <string name="phone_number">099-232-131-7</string>
 </resources>

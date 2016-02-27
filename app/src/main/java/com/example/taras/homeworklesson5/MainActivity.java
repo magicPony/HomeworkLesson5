@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:099-232-131-7"));
+                callIntent.setData(Uri.parse("tel:" + getString(R.string.phone_number)));
 
                 if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     Toast.makeText(MainActivity.this, R.string.permission_error_message, Toast.LENGTH_LONG).show();
